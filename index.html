@@ -369,14 +369,11 @@
     <section class="events-section" id="events">
       <div class="container">
         <p class="section-eyebrow">What's Happening</p>
-        <h2 class="section-title text-center">Events</h2>
-        <div class="events-placeholder">
-          <div class="empty-events">
-            <span class="empty-icon">📅</span>
-            <p>No upcoming events at the moment.</p>
-            <p class="empty-sub">Sign up for our newsletter to be the first to know when something's cooking.</p>
-            <a href="#newsletter" class="btn btn-outline">Get Notified</a>
-          </div>
+        <h2 class="section-title text-center">Upcoming Events</h2>
+        <p class="events-subtitle">Cleveland's best Southern food — live events, specials &amp; food truck stops.</p>
+        <div class="events-grid" id="events-grid"></div>
+        <div class="events-load-wrap" id="events-load-wrap">
+          <button class="btn btn-outline btn-large" id="load-more-btn" onclick="loadMoreEvents()">Load More Events</button>
         </div>
       </div>
     </section>
