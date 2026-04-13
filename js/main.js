@@ -1,5 +1,5 @@
 // ═══════════════════════════════════════
-//   HATFIELD'S GOODE GRUB — Main JS
+//   HATFIELD'S GOODE GRUB - Main JS
 // ═══════════════════════════════════════
 
 // ── EVENTS DATA ──

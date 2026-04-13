@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════
-   HATFIELD'S GOODE GRUB — Custom Website Styles
+   HATFIELD'S GOODE GRUB - Custom Website Styles
    Burgers · Brunch · Barbecue
    Born & Raised in the South · Cleveland, OH
 ═══════════════════════════════════════════════ */
@@ -1038,7 +1038,7 @@ ul { list-style: none; }
   font-family: var(--font-display);
   font-size: 1.25rem;
   font-weight: 700;
-  color: #fff;
+  color: var(--warm-white);
   line-height: 1.2;
   margin-bottom: 0.35rem;
 }
@@ -1154,7 +1154,6 @@ ul { list-style: none; }
   transform: scale(1.05);
   filter: brightness(1.05);
 }
-.gallery-item { overflow: hidden; }
 
 /* ══════════════════════════════════════
    REWARDS & NEWSLETTER
